@@ -6,9 +6,9 @@ struct WorldExtension;
 unsafe impl ExtensionLibrary for WorldExtension {}
 
 pub mod world {
-    pub mod layer_renderer;
     pub mod world;
     pub mod world_renderer;
+    pub mod world_gen;
     pub mod data {
         pub mod chunk;
         pub mod tile;
