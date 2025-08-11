@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://jkswdnpuu0rr"]
+
+[ext_resource type="Shader" uid="uid://cex2flqsxidsu" path="res://shaders/tile3d.gdshader" id="1_rqskn"]
+[ext_resource type="Texture2D" uid="uid://dkhs53uelipm" path="res://assets/spritesheet.png" id="2_1jeh6"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_rqskn")
+shader_parameter/tex = ExtResource("2_1jeh6")
+shader_parameter/alpha_scissor_threshold = 0.5
